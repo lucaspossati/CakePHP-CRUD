@@ -15,13 +15,13 @@
         <div class="users form content">
             <?= $this->Form->create($user) ?>
             <fieldset>
-                <legend><?= __('Add User') ?></legend>
+                <legend><?= __('Cadastrar Usuários') ?></legend>
                 <?php
                     echo $this->Form->control('nome');
                     echo $this->Form->control('email');
                 ?>
             </fieldset>
-            <?= $this->Form->button(__('Submit')) ?>
+            <?= $this->Form->button(__('Cadastrar')) ?>
             <?= $this->Form->end() ?>
         </div>
     </div>

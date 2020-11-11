@@ -15,12 +15,12 @@
         <div class="categoriasProdutos form content">
             <?= $this->Form->create($categoriasProduto) ?>
             <fieldset>
-                <legend><?= __('Add Categorias Produto') ?></legend>
+                <legend><?= __('Adicionar uma categoria de produto') ?></legend>
                 <?php
                     echo $this->Form->control('nome_categoria');
                 ?>
             </fieldset>
-            <?= $this->Form->button(__('Submit')) ?>
+            <?= $this->Form->button(__('Cadastrar')) ?>
             <?= $this->Form->end() ?>
         </div>
     </div>
